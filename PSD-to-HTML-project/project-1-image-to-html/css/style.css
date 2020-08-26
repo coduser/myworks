@@ -1,0 +1,452 @@
+body {
+    font-family: sans-serif;
+    background: #f6f7f9;
+}
+
+/*--------------Row1---------------*/
+#row1 {
+    height: 50px;
+    width: 100%;
+}
+
+.top_bar {}
+
+.top-left {
+    margin: 0 auto;
+}
+
+.top-left .logo {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.top-left .logo-text {}
+
+.top-left .logo-text h3 {
+    margin-left: -134px;
+    margin-top: 17px;
+}
+
+.top-right {}
+
+.top-right .menu {}
+
+.top-right .menu ul {}
+
+.menu_ul {
+    margin-bottom: 0px;
+}
+
+.top-right .menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.top-right .menu ul .active {
+    background: #13a4db;
+
+}
+
+
+.top-right .menu ul li:hover {
+    background: #13a4db;
+}
+
+.top-right .menu ul li:hover:last-child {
+    background: none;
+}
+
+.top-right .menu ul li:hover a {
+    color: #fff;
+}
+
+
+.top-right .menu ul li:last-child a {
+    background: #ff8156;
+    color: #fff;
+    padding: 4px 13px;
+}
+
+.top-right .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.top-right .menu ul li .home_button {
+    color: #fff;
+}
+
+
+
+
+.top-right .menu ul li .blog {}
+
+.top-right .search {
+    margin-top: 22px;
+}
+
+.top-right .search p {}
+
+.top-right .search img {
+    height: 18px;
+    margin-left: 4px;
+}
+
+/*==============*/
+/*   Row 2   */
+/*===============*/
+
+#row2 {
+    height: 400px;
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 3%;
+}
+
+.carousel-caption h1 {
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    margin-bottom: 40px;
+}
+
+.carousel-caption a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    background: #ff8c5f;
+    padding: 7px 36px;
+}
+
+.carousel-indicators {
+    left: 78% !important;
+}
+
+.carousel-indicators li {
+
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ff8c5f;
+
+}
+
+.carousel-indicators .active {
+    background: #b6b7bb !important;
+}
+
+.srvice_title {
+    background: #13a4db;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 45.5%;
+    top: 458px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+/*==============*/
+/*   Row 3   */
+/*===============*/
+
+#row3 {
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.all_services {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service_details {
+    margin-top: 56px;
+    text-align: center;
+}
+
+.service_details img {
+    height: 90px;
+    width: 90px;
+}
+
+.service_text {
+    width: 202px;
+    height: auto;
+}
+
+.service_text h4 {}
+
+.service_text p {}
+
+.service_text a {}
+
+/*==============*/
+/*   Row 4   */
+/*===============*/
+#row4 {
+    height: 400px;
+    width: auto;
+    background: #2e3e4e;
+}
+
+.portfolio_top {}
+
+.portfolio_top h2 {
+    color: #ff8c5f;
+    padding-bottom: 23px;
+    font-size: 34px;
+    padding-top: 10px;
+}
+
+.portfolio_top button {
+    background: #13a4db;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 5px 12px;
+    margin-top: 34px;
+}
+
+.portfolio_main {}
+
+.portfolio_main img {
+    width: 100%;
+    height: auto;
+    border: 6px solid #fff;
+}
+
+.portfolio-details {}
+
+.portfolio-details h4 {
+    color: #ff8c5f;
+}
+
+.portfolio-details p {
+    color: #fff;
+}
+
+/*==============*/
+/*   Row 5   */
+/*===============*/
+
+#row5 {
+    height: 300px;
+    width: 100%;
+}
+
+.offer_heading {
+    margin: 0 auto;
+    width: 685px;
+}
+
+.offer_heading h2 {
+    color: #13a4db;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offer_heading p {
+    text-align: center;
+}
+
+.offer_details {}
+
+.offer_description {
+    width: 235px;
+}
+
+.offer_details h4 {
+    color: #13a4db;
+}
+
+.offer_details p {
+    text-align: justify;
+}
+
+.offer_details a {
+    color: #fff;
+    background: #13a4db;
+    float: right;
+    padding: 3px 9px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/*==============*/
+/*   Row 6   */
+/*===============*/
+#row6 {
+    height: 300px;
+    width: 100%;
+    margin-top: -7px;
+}
+
+.seperator {
+    height: 2px;
+    background: #c8c8c8;
+}
+
+.testimonials {}
+
+.testimonials_details {
+    text-align: center;
+    margin-top: -22px;
+}
+
+.testimonials_details h2 {
+    color: #13a4db;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.testimonials_details h4 {
+    font-size: 18px;
+}
+
+.testimonials_details h4:last-child {
+    margin-bottom: 18px;
+}
+
+.proffesion {
+    color: #ff8c5f;
+    margin-bottom: 18px;
+}
+
+.proffesion p {
+    text-align: center;
+
+}
+
+.proffesion p span {
+    font-weight: bold;
+}
+
+.personel {
+    width: 300px;
+    height: 150px;
+    margin-left: 332px;
+}
+
+.head_shot img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.head_shot img:hover .high_1 {
+    background: #ff8c5f;
+}
+
+.highlighter {}
+
+.highlighter .high_1 {}
+
+.highlighter .high_2 {
+	height: 4px;
+	width: 80px;
+	margin-top: 25px;
+	background: #ff8c5f;
+	margin-left: 83px;
+}
+
+.highlighter .high_3 {}
+
+
+/*==============*/
+/*   Row 7   */
+/*===============*/
+#row7 {
+	background: #2e3e4e;
+	height: 285px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.text_fotter{}
+.text_fotter img {
+	height: 50px;
+	width: 50px;	
+}
+.text_fotter h2 {
+	color: #ff8c5f;
+	text-transform: uppercase;
+	font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text_fotter p {
+	color: #b0b0b0;
+	line-height: 5px;
+}
+.text_fotter .p2 {
+	color: #13a4db;
+	margin-bottom: 3px;
+}
+
+.text_fotter .p3 {
+	color: #b0b0b0;
+	margin-bottom: 3px;
+	line-height: 17px;
+}
+.text_fotter small{
+    color: #b0b0b0;
+}
+.text_fotter .divider {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.input_label{
+    color: #13a4db;
+}
+
+.project_text {
+	margin-left: -25px;
+}
+
+.btn-group-sm > .btn, .btn-sm {	
+	margin-top: 12px;
+	margin-left: 132px;
+	background: #13a4db;
+	color: #fff;
+}
+
+.contact{
+    
+}
+
+.contact .col-md-8 {
+	margin-left: -25px;
+}
+.contact img {
+	height: 40px;
+	width: 40px;
+	margin-bottom: 10px;
+}
+
+.contact p {
+	margin-top: 10px;
+}
+
+.{}
+
+. {}
+
+. {}
+
+. {}

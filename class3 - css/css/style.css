@@ -1,0 +1,196 @@
+.head6{
+    color: pink;
+    background: skyblue;
+    padding: 10px;
+    font-size: 20px
+}
+/*-----css div------*/ 
+.nav{
+    height: 30px;
+    width: 960px;
+    background: blue;
+}
+.header{
+    height: 200px;
+    width: 960px;
+    background: red;
+}
+.content{
+    height: 400px;
+    width: 960px;
+    background: skyblue;
+}
+.leftc{
+    width: 60%;
+    height: 100%;
+    background: yellow;
+    float: left;
+}
+.rightc{
+    width: 40%;
+    height: 100%;
+    background: green;
+    float: right;
+}
+.footer{
+    height: 60px;
+    width: 960px;
+    background: black;
+}
+
+/*-----styling background------*/
+.bc{
+    background: red;
+}
+
+.bi{
+    height: 300px;
+    width: 960px;
+    background: url(../image/pinzira-logo.jpg);
+}
+.br{
+    height: 300px;
+    width: 960px;
+    background: url(../image/download.jpg);
+    background-repeat: repeat-y;
+}
+
+body{
+    background: url(../image/img.jpg);
+    background-attachment: fixed;
+}
+
+.bp{
+    height: 300px;
+    width: 960px;
+    background: url(../image/download2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*-----styling text------*/
+.tc{
+    color: gray;
+}
+.tar{
+    text-align: right;
+}
+.tac{
+     text-align: center;
+}
+.tal{
+     text-align: left;
+}
+.taj{text-align: justify;}
+
+.tdu{
+    text-decoration: underline;
+}
+
+.tdo{
+    text-decoration: overline;
+}
+.tdl{
+    text-decoration: line-through;
+}
+.ttu{
+    text-transform: uppercase;
+}
+
+.ttl{
+    text-transform: lowercase;
+}
+
+.ttc{
+    text-transform: capitalize;
+}
+.ti{
+    text-indent: 30px;
+}
+.ls{
+    letter-spacing: 10px;
+}
+.lh{
+    line-height: 30px;
+}
+.ws{
+    word-spacing: 30px;
+}
+.ts{
+    text-shadow: 2px 2px 2px blue;
+}
+
+h1{
+    background: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*-----styling font------*/
+.fs{
+    font-style: oblique;
+}
+.fw{
+    font-weight: bold;
+}
+
+.fsz{
+    font-size: 50px;
+}
+.ff{
+    font-family: lato;
+}
+/*-----styling Link------*/
+a{
+    color: #000;
+    background: red;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background: pink;
+    color: white;
+}
+a:active{
+    background: blue;
+    color: yellow;
+}
+
+a:visited{
+    background: green;
+    color: bisque;
+}
+/*-----styling List------*/
+ul{
+    width: 620px;
+    background: green;
+    height: 50px;
+}
+ul li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 12px;
+    background: #fff;
+    padding: 5px;
+}
+/*-----styling Table------*/
+table{
+    border: 1px solid red;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: skyblue;
+    border-collapse: collapse;
+    caption-side: top;
+    table-layout: fixed;
+   
+}
+
+th, td{
+    border: 1px solid #000;
+    padding: 8px; 
+    border-spacing: 10px;
+}

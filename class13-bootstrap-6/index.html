@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap - 6</title>
+    <link rel="stylesheet" href="css/bootstrap3.min.css">
+    <link rel="stylesheet" href="css/styel.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="well text-center"> Bootstrap Tabs and Pills</h1>
+        <br>
+        <br>
+        <ul class="nav nav-tabs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <hr>
+        <hr>
+        <hr>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mobile <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Vevo</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <hr>
+        <hr>
+        <hr>
+        <ul class="nav nav-pills">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <hr>
+        <hr>
+        <hr>
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <hr>
+        <hr>
+        <hr>
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mobile <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Vevo</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <hr>
+        <hr>
+        <hr>
+        <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <ul class="nav nav-pills nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <hr>
+        <hr>
+        <hr>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="container">
+        <h1 class="well text-center">Bootstrap Collapse</h1>
+        <hr>
+        <hr>
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#test-collapse">Click Here</button>
+        <div id="test-collapse" class="collapse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi omnis, eveniet ut ea inventore laborum fugit? Rerum nihil quo illo distinctio culpa atque consectetur, sunt consequatur, fugiat ipsam est accusamus vitae tempore porro alias quibusdam eum, qui natus. Iusto, deserunt?</p>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#test-collapse1">Click Here</button>
+        <div id="test-collapse1" class="collapse in">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi omnis, eveniet ut ea inventore laborum fugit? Rerum nihil quo illo distinctio culpa atque consectetur, sunt consequatur, fugiat ipsam est accusamus vitae tempore porro alias quibusdam eum, qui natus. Iusto, deserunt?</p>
+        </div>
+        <hr>
+        <hr>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <span data-toggle="collapse" data-target="#collapse-demo">Fashion</span>
+                            </h3>
+                        </div>
+                        <div id="collapse-demo" class="collapse panel-collapse">
+                            <div class="panel-body">T-shirt</div>
+                            <div class="panel-footer">Pant</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-5">
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <span data-toggle="collapse" data-target="#collapse-demo1">Fashion</span>
+                            </h3>
+                        </div>
+                        <div id="collapse-demo1" class="collapse panel-collapse">
+                            <ul class="list-group">
+                                <li class="list-group-item">T-shirt</li>
+                                <li class="list-group-item">T-shirt</li>
+                                <li class="list-group-item">T-shirt</li>
+                                <li class="list-group-item">T-shirt</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+
+
+    </div>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+/*====================*/
+/*BASIC SETUP*/
+/*====================*/
+body {
+    font-family: sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+
+/*====================*/
+/*Header*/
+/*====================*/
+.nav_bg{
+    background-color: #313b47!important;
+}
+.main_nav {}
+
+.main_nav li {
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.main_nav li a:link,
+.main_nav li a:visited {
+    color: #fff;
+    text-decoration: none;    
+    text-transform: uppercase;
+    padding: 22px 18px;
+    font-size: 12px;
+    
+}
+
+.main_nav li:hover a:link,
+.main_nav li:hover a:visited {
+   color: yello;
+    background: #2a80b9;
+}
+
+
+/*Logo*/
+.logo {}
+
+.logo a {
+    text-decoration: none;
+
+}
+
+.logo h2 {
+    color: #fff;
+    margin-top: 16px;
+    margin-left: 120px;
+}
+/*Hero*/
+.hero_bg{
+    background: #2a80b9;
+    height: 60vh;
+}
+.hero{}
+.hero h1{}
+.hero h3{}
+.hero a{}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}

@@ -1,0 +1,89 @@
+h3{
+    display: inline;
+    background: red;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+span{
+    display: block;
+    background: lime;
+    margin-top: 5px;
+}
+.none{
+    background: pink;
+    width: 100%;
+    height: 80px;
+    display: none;
+}
+ul{
+    background: lime;
+    text-align: center;
+    padding: 10px 10px;
+}
+ul li{
+    display: inline-block;
+    background: green;
+    padding: 10px 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;    
+}
+ul li:hover{
+    background: red;
+}
+
+ul li:hover a{
+    color: #000;
+}
+
+/*----------CSS Position---------*/
+.box1{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+/*
+    top: 0;
+    right: 0;
+    ----------------
+    bottom: 0;
+    right: 0;
+    ---------------
+    bottom: 0;
+    left: 0;
+    ---------------
+    left: 0;
+    top: 0;
+    ---------------
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    --------------
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    --------------
+*/
+   
+    top: -100%;    
+    margin: auto;
+    
+}
+.box{
+    background: green;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin-top: 200px;
+    left: 20%;
+    overflow: hidden;
+}
+
+.box:hover .box1{
+    top: 0;
+    transition: 2s;
+}
